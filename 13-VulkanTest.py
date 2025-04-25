@@ -4,6 +4,7 @@ from PySide6.QtWidgets import QApplication
 from PySide6.QtGui import QVulkanWindow, QVulkanWindowRenderer
 from PySide6.QtCore import Qt
 
+# test：探索 Pyside6 结合 Vulkan 的可能性（以失败告终，无法运行）
 class VulkanRenderer(QVulkanWindowRenderer):
     def __init__(self, window):
         super().__init__(window)
