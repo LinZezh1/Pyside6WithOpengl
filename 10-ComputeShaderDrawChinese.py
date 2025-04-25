@@ -15,7 +15,7 @@ FONT_PIXEL_SIZE = 128 # 渲染字体到位图的像素大小
 TEXTURE_WIDTH = 256 # 输出纹理宽度
 TEXTURE_HEIGHT = 256 # 输出纹理高度
 
-# 依赖检查
+# test：使用 Computer Shader 结合 FreeType 绘制中文字符
 try:
     from OpenGL.GL import *
     # 检查必要的 OpenGL 函数
