@@ -7,6 +7,8 @@ from OpenGL.GL import *
 import ctypes
 import math
 
+# test：使用 Manimgl 的 Stroke 逻辑渲染十六条 BezierCurve，形成封闭圆形
+
 # 顶点着色器 (与 Square 版本相同)
 VERTEX_SHADER_SRC = """
 #version 330 core
