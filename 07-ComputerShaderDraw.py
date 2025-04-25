@@ -6,6 +6,7 @@ from PySide6.QtOpenGLWidgets import QOpenGLWidget
 from PySide6.QtCore import Qt, QTimer, QElapsedTimer
 from PySide6.QtGui import QSurfaceFormat, QOpenGLContext
 
+# test：使用 Computer Shader 绘制一些纹理效果
 # Check dependencies (same as before)
 try:
     from OpenGL.GL import *
