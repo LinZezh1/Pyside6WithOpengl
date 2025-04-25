@@ -5,7 +5,7 @@ from PySide6.QtGui import QSurfaceFormat
 from OpenGL.GL import *
 import numpy as np
 
-
+# 使用 Shader 绘制简单几何图形
 class OpenGLWidget(QOpenGLWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
