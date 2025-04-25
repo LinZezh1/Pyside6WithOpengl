@@ -9,7 +9,7 @@ import numpy as np
 from OpenGL.GL import *
 from PIL import Image
 
-# test：Opengl 生成图片 --> pillow 转换为 png --> ffmpeg 合成序列帧，验证 Manimgl 渲染逻辑
+# test：Opengl 将渲染数据写入到帧缓冲区（FBO） --> pillow 转换为 png --> ffmpeg 合成序列帧，验证 Manimgl 渲染逻辑
 class OpenGLWidget(QOpenGLWidget):
     def __init__(self, parent=None):
         super(OpenGLWidget, self).__init__(parent)
