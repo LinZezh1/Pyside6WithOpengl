@@ -1,6 +1,6 @@
-# 作用
+# Introduction
 探索一下 PySide 和 Opengl 结合的可能性，熟悉 PySide 的常用控件和 Opengl API
-# 所需依赖
+# Dependencies
 - PyOpenGL - 3.1.9
 - PySide6 - 6.9.0
 - PySide6 - 6.9.0
