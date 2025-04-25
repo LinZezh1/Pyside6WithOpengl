@@ -6,6 +6,7 @@ from PySide6.QtGui import QSurfaceFormat
 import numpy as np
 from OpenGL.GL import *
 
+# pyside 控件结合 Opengl 实现简单的 Morph 效果
 class OpenGLWidget(QOpenGLWidget):
     def __init__(self, parent=None):
         super(OpenGLWidget, self).__init__(parent)
