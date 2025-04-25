@@ -6,6 +6,8 @@ from PySide6.QtGui import QSurfaceFormat
 from OpenGL.GL import *
 import ctypes
 
+# test：使用 Manimgl 的 Stroke 逻辑渲染两条贝塞尔曲线
+
 # 顶点着色器源码
 VERTEX_SHADER_SRC = """
 #version 330 core
