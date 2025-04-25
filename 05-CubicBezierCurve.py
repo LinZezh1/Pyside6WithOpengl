@@ -5,7 +5,7 @@ from PySide6.QtGui import QSurfaceFormat
 import numpy as np
 from OpenGL.GL import *
 
-
+# test：通过 Vertex Shader 计算 Cubic Bezier Curve
 class OpenGLWidget(QOpenGLWidget):
     def initializeGL(self):
         glClearColor(0.2, 0.3, 0.3, 1.0)
