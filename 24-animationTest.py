@@ -5,6 +5,8 @@ from PySide6.QtOpenGLWidgets import QOpenGLWidget
 from PySide6.QtCore import QTimer
 from OpenGL.GL import *
 
+# test：使用 Manimgl 的 Stroke 逻辑渲染两个图形（三角形和正方形），实现二者转换的动画效果
+
 VERT_SHADER = """
 #version 330 core
 layout (location = 0) in vec2 p0A;
