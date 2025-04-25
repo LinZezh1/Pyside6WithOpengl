@@ -1,11 +1,11 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QPushButton
-f rom PySide6.QtOpenGLWidgets import QOpenGLWidget
+from PySide6.QtOpenGLWidgets import QOpenGLWidget
 from PySide6.QtGui import QSurfaceFormat
 import numpy as np
 from OpenGL.GL import *
 
-
+# 测试 pyside 中的控件使用以及 Opengl 的基本功能
 class OpenGLWidget(QOpenGLWidget):
     def __init__(self, parent=None):
         super(OpenGLWidget, self).__init__(parent)
