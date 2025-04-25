@@ -5,6 +5,7 @@ from PySide6.QtOpenGLWidgets import QOpenGLWidget
 from PySide6.QtGui import QSurfaceFormat
 from OpenGL.GL import *
 
+# test：Pyside 结合 Manimgl 中的 Bezier Curve fill 部分的渲染逻辑
 VERTEX_SHADER_SRC = """
 #version 330 core
 layout (location = 0) in vec3 aPos;
