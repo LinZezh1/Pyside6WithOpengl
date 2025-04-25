@@ -3,11 +3,11 @@ from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtOpenGLWidgets import QOpenGLWidget
 from PySide6.QtCore import Qt, QTimer
 from PySide6.QtGui import QSurfaceFormat
-
 import numpy as np
 from OpenGL.GL import *
 
 
+# 测试一下 pyside 和 Opengl 结合的可行性
 class OpenGLWidget(QOpenGLWidget):
     def __init__(self, parent=None):
         super(OpenGLWidget, self).__init__(parent)
