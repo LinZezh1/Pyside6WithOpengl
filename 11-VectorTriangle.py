@@ -5,6 +5,8 @@ from PySide6.QtOpenGLWidgets import QOpenGLWidget
 from PySide6.QtGui import QSurfaceFormat
 from OpenGL.GL import *
 
+# test：在 Fragment Shader 中以 SDF 方式绘制抗锯齿三角形（Vertex Shader 绘制全屏四边形作为画布）
+
 vertex_shader_src = """
 #version 330 core
 layout (location = 0) in vec2 aPos;
