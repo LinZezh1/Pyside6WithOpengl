@@ -6,7 +6,7 @@ from PySide6.QtOpenGLWidgets import QOpenGLWidget
 from PySide6.QtCore import Qt, QTimer
 from PySide6.QtGui import QSurfaceFormat, QOpenGLContext, QVector2D, QVector4D
 
-# 依赖检查
+# test：使用 Computer Shader 实现 Cubic Bezier Curve 的抗锯齿效果
 try:
     from OpenGL.GL import *
     # 检查必要的 OpenGL 函数
