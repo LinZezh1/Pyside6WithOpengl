@@ -22,7 +22,7 @@ except ImportError:
     print("ERROR: NumPy is not installed. Please install it: pip install numpy")
     sys.exit(1)
 
-
+# test：Opengl Computer shader 功能测试（未成功显示目标效果）
 class OpenGLWidget(QOpenGLWidget):
     def __init__(self, parent=None):
         super(OpenGLWidget, self).__init__(parent)
