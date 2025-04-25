@@ -6,7 +6,7 @@ from PySide6.QtOpenGLWidgets import QOpenGLWidget
 from PySide6.QtCore import Qt, QTimer
 from PySide6.QtGui import QSurfaceFormat, QOpenGLContext, QVector2D, QVector4D
 
-# 依赖检查 (保持不变)
+# test：使用 Computer Shader 绘制三条 Cubic Bezier Curve 并使其组成一个三角形
 try:
     from OpenGL.GL import *
     required_gl_funcs = ['glDispatchCompute', 'GL_COMPUTE_SHADER', 'glBindImageTexture',
