@@ -6,6 +6,7 @@ from PySide6.QtGui import QSurfaceFormat
 from OpenGL.GL import *
 from PySide6.QtCore import Qt, QTimer
 
+# test: 通过 CPU 计算顶点并使用 GL_LINE_STRIP 渲染贝塞尔曲线
 vertex_shader_source = """
 #version 330 core
 layout (location = 0) in vec2 position;
