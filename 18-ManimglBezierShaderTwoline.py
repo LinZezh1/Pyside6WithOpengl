@@ -7,6 +7,8 @@ from OpenGL.GL import *
 import ctypes
 import math # 用于计算角度
 
+# test：使用 Manimgl 的 Stroke 逻辑渲染两条贝塞尔曲线（自定义控制点）
+
 # 顶点着色器源码 (移除 gl_Position)
 VERTEX_SHADER_SRC = """
 #version 330 core
