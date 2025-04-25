@@ -6,7 +6,7 @@ from PySide6.QtGui import QSurfaceFormat
 from OpenGL.GL import *
 import ctypes
 
-# Shader sources - containing core shader code
+# test：Pyside 结合 Manimgl 中的 Bezier Curve stroke 部分的渲染逻辑
 VERTEX_SHADER_SRC = """
 #version 330 core
 layout (location = 0) in vec3 point;
