@@ -6,6 +6,8 @@ import numpy as np
 import sys
 import math
 
+# test：使用 Manimgl 的 Stroke 逻辑渲染单条 BezierCurve ，并实现简单动画效果
+
 VERT_SHADER = """
 #version 330 core
 layout (location = 0) in vec2 aPosA;
